@@ -1,5 +1,7 @@
 from utility_functions import input_as_integer
 
+# Next Class: Treasure hunt game using 2D array.
+
 tickets = [
     ["Dhaka to Khulna", 200],
     ["Khulna to Dhaka", 200],
