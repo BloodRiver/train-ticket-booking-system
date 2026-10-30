@@ -839,3 +839,60 @@ p1 = Person()
 ```
 
 Here is the easier way: (Next class)
+
+# Basic Terminal commands
+
+## Show present/current working directory
+
+**Windows**
+`cwd`
+
+**MACOS/Linux**
+`pwd`
+
+**Python**
+```py
+import os
+
+print(os.getcwd())
+```
+
+### Relative vs Absolute Path
+**Relative Path** - The location of a file or folder *relative* to the file or code file.
+
+**Absolute Path** - The full address to locate a file or folder
+
+## Changing Directory
+`cd` - to change to another folder. `cd ..` means go to previous folder. `cd <folder-name or path>`
+
+## Creating a folder
+`mkdir <folder name>`**
+
+## Deleting a file or folder
+**Folder**
+`rmdir` - to delete a folder if it is empty
+
+`rm` - to delete a file
+
+# Working with the OS module in Python
+
+`os.listdir('path')` - show all files and folders in the given path - Example: `os.listdir('.')` - show all files and folders in the current working directory
+
+`os.mkdir('folder or path name')` - create a new folder
+
+`os.remove('file or path')` - delete the file in the given path
+
+`os.path.abspath`
+
+`os.path.exists('path')`
+
+
+# Back to the Basics
+
+## List Methods
+`append(element)` - adds a new element to the rightmost end of the list
+`insert(index, element)` - inserts a new element to at the given index of the list
+`remove(element)` - removes the first occurrence of the given element from the list if it exists otherwise shows error if the element does not exist.
+`pop(index)` - removes an element from the given index in the list and shows error if the index is out of range
+
+# Next Class: String Manipulation
