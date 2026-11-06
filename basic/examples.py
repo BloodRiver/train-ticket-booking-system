@@ -174,29 +174,29 @@ class Student:
 # print("cse_student2.core_courses:", cse_student2.core_courses)
 
 
-class FamilyMember:
-    common_fund = 0
+# class FamilyMember:
+#     common_fund = 0
 
-    def __init__(self, name):
-        self.name = name
-        self.personal_fund = 0
+#     def __init__(self, name):
+#         self.name = name
+#         self.personal_fund = 0
 
 
-f1 = FamilyMember("Shahrear")
-f2 = FamilyMember("Lovely")
-f3 = FamilyMember("Saifur")
+# f1 = FamilyMember("Shahrear")
+# f2 = FamilyMember("Lovely")
+# f3 = FamilyMember("Saifur")
 
-print("Common Fund:")
-print(FamilyMember.common_fund)
-print(f1.common_fund)
-print(f2.common_fund)
-print(f3.common_fund)
-f3.__class__.common_fund += 50000
-print("Common Fund after Uncle adding 50,000 taka")
-print(f3.common_fund)
-print(f3.name)
-print(f1.name)
-print("f1.common_fund:", f1.common_fund)
+# print("Common Fund:")
+# print(FamilyMember.common_fund)
+# print(f1.common_fund)
+# print(f2.common_fund)
+# print(f3.common_fund)
+# f3.__class__.common_fund += 50000
+# print("Common Fund after Uncle adding 50,000 taka")
+# print(f3.common_fund)
+# print(f3.name)
+# print(f1.name)
+# print("f1.common_fund:", f1.common_fund)
 
 
 # s1 = Student("Sajeed")
@@ -207,3 +207,6 @@ print("f1.common_fund:", f1.common_fund)
 # print(Student.department)
 # print(s1.name)
 # print(Student.name)
+
+
+
