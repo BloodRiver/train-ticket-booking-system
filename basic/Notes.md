@@ -895,4 +895,17 @@ print(os.getcwd())
 `remove(element)` - removes the first occurrence of the given element from the list if it exists otherwise shows error if the element does not exist.
 `pop(index)` - removes an element from the given index in the list and shows error if the index is out of range
 
-# Next Class: String Manipulation
+# Python File Extensions
+
+Python files often fall into two groups: **source code** you write and **files Python creates or loads**.
+
+| Extension | What it is | What to know |
+|---|---|---|
+| `.py` | Python source code | The readable script or module you write and run. |
+| `.pyc` | Compiled Python bytecode | Usually cached in `__pycache__/` after a module is imported, so Python can skip recompiling it next time. It’s safe to delete; Python can recreate it. |
+| `.pyo` | Older optimized bytecode | Used by older Python versions with optimization enabled. Python 3.5 and later use optimized `.pyc` files instead, often named with an `.opt-1` or `.opt-2` marker. |
+| `.pyd` | Compiled extension module on Windows | A loadable module, often built from C or C++; broadly similar to a Windows DLL, but made for Python to import. |
+| `.so` | Shared library / extension module on Unix-like systems | Often serves the role that a `.pyd` does on Windows. |
+| `.pyw` | Python script for Windows | Often launched without opening a console window, useful for GUI programs. |
+
+A `.pyc` file isn’t a standalone executable, and it generally doesn’t make your program run faster once it’s running—it mainly helps Python load modules faster. Most of the time, you can ignore `.pyc` files and leave them out of version control.
