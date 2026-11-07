@@ -1,3 +1,6 @@
+pi = 3.142
+
+
 def check_email_validity(email):
     is_valid = True
 
@@ -77,3 +80,7 @@ def check_email_validity(email):
         is_valid = False
 
     return is_valid
+
+
+class MyClass:
+    my_class_variable = 543
